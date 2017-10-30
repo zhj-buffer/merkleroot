@@ -1,0 +1,75 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Ch	sha2.c	99;"	d	file:
+EXTERN_SHA256	sha2.c	21;"	d	file:
+Htarg	sha2.c	/^	const uint32_t Htarg = ptarget[7];$/;"	l
+Maj	sha2.c	100;"	d	file:
+RND	sha2.c	108;"	d	file:
+RNDr	sha2.c	117;"	d	file:
+ROTR	sha2.c	101;"	d	file:
+S	sha2.c	/^	uint32_t S[16], T[16];$/;"	l
+S	sha2.c	/^	uint32_t S[16];$/;"	l
+S	sha2.c	/^	uint32_t S[64];$/;"	l
+S	sha2.c	/^	uint32_t S[8];$/;"	l
+S0	sha2.c	102;"	d	file:
+S1	sha2.c	103;"	d	file:
+T	sha2.c	/^	uint32_t S[16], T[16];$/;"	l
+W	sha2.c	/^	uint32_t W[64];$/;"	l
+be32dec	sha2.c	/^static inline uint32_t be32dec(const void *pp)$/;"	f	file:	signature:(const void *pp)
+be32enc	sha2.c	/^static inline void be32enc(void *pp, uint32_t x)$/;"	f	file:	signature:(void *pp, uint32_t x)
+bswap_32	sha2.c	25;"	d	file:
+data	main.c	/^	uint32_t data[64];$/;"	l
+data	sha2.c	/^	uint32_t data[4 * 64] __attribute__((aligned(128)));$/;"	l
+data	sha2.c	/^	uint32_t data[8 * 64] __attribute__((aligned(128)));$/;"	l
+first_nonce	sha2.c	/^	const uint32_t first_nonce = pdata[19];$/;"	l
+hash	main.c	/^	uint32_t hash[8];$/;"	l
+hash	sha2.c	/^	uint32_t hash[4 * 8] __attribute__((aligned(32)));$/;"	l
+hash	sha2.c	/^	uint32_t hash[8 * 8] __attribute__((aligned(32)));$/;"	l
+i	main.c	/^	int i = 0;$/;"	l
+i	sha2.c	/^	int i, j;$/;"	l
+i	sha2.c	/^	int i, r;$/;"	l
+i	sha2.c	/^	int i;$/;"	l
+j	sha2.c	/^	int i, j;$/;"	l
+le32dec	sha2.c	/^static inline uint32_t le32dec(const void *pp)$/;"	f	file:	signature:(const void *pp)
+main	main.c	/^void main()$/;"	f
+midstate	main.c	/^	uint32_t midstate[8];$/;"	l
+midstate	sha2.c	/^	uint32_t midstate[4 * 8] __attribute__((aligned(32)));$/;"	l
+midstate	sha2.c	/^	uint32_t midstate[8 * 8] __attribute__((aligned(32)));$/;"	l
+n	sha2.c	/^	uint32_t n = pdata[19] - 1;$/;"	l
+p	main.c	/^	char *p;$/;"	l
+p	sha2.c	/^	const uint8_t *p = (uint8_t const *)pp;$/;"	l
+p	sha2.c	/^	uint8_t *p = (uint8_t *)pp;$/;"	l
+pdata	main.c	/^	uint32_t pdata[32];$/;"	l
+prehash	main.c	/^	uint32_t prehash[8];$/;"	l
+prehash	sha2.c	/^	uint32_t prehash[4 * 8] __attribute__((aligned(32)));$/;"	l
+prehash	sha2.c	/^	uint32_t prehash[8 * 8] __attribute__((aligned(32)));$/;"	l
+r	sha2.c	/^	int i, r;$/;"	l
+s0	sha2.c	104;"	d	file:
+s1	sha2.c	105;"	d	file:
+scanhash_sha256d_4way	sha2.c	/^static inline int scanhash_sha256d_4way(int thr_id, uint32_t *pdata,$/;"	f	file:	signature:(int thr_id, uint32_t *pdata, const uint32_t *ptarget, uint32_t max_nonce, unsigned long *hashes_done)
+scanhash_sha256d_8way	sha2.c	/^static inline int scanhash_sha256d_8way(int thr_id, uint32_t *pdata,$/;"	f	file:	signature:(int thr_id, uint32_t *pdata, const uint32_t *ptarget, uint32_t max_nonce, unsigned long *hashes_done)
+sha256_h	sha2.c	/^static const uint32_t sha256_h[8] = {$/;"	v	file:
+sha256_init	main.c	/^extern void sha256_init(uint32_t *state);$/;"	p	file:	signature:(uint32_t *state)
+sha256_init	sha2.c	/^void sha256_init(uint32_t *state)$/;"	f	signature:(uint32_t *state)
+sha256_k	sha2.c	/^static const uint32_t sha256_k[64] = {$/;"	v	file:
+sha256_transform	main.c	/^extern void sha256_transform(uint32_t *state, const uint32_t *block, int swap);$/;"	p	file:	signature:(uint32_t *state, const uint32_t *block, int swap)
+sha256_transform	sha2.c	/^void sha256_transform(uint32_t *state, const uint32_t *block, int swap)$/;"	f	signature:(uint32_t *state, const uint32_t *block, int swap)
+sha256d	sha2.c	/^void sha256d(unsigned char *hash, const unsigned char *data, int len)$/;"	f	signature:(unsigned char *hash, const unsigned char *data, int len)
+sha256d_80_swap	sha2.c	/^void sha256d_80_swap(uint32_t *hash, const uint32_t *data)$/;"	f	signature:(uint32_t *hash, const uint32_t *data)
+sha256d_hash1	sha2.c	/^const uint32_t sha256d_hash1[16] = {$/;"	v
+sha256d_ms	main.c	/^extern void sha256d_ms(uint32_t *hash, uint32_t *W, const uint32_t *midstate, const uint32_t *prehash);$/;"	p	file:	signature:(uint32_t *hash, uint32_t *W, const uint32_t *midstate, const uint32_t *prehash)
+sha256d_ms	sha2.c	/^void sha256d_ms(uint32_t *hash, uint32_t *W, const uint32_t *midstate, const uint32_t *prehash)$/;"	f	signature:(uint32_t *hash, uint32_t *W, const uint32_t *midstate, const uint32_t *prehash)
+sha256d_ms	sha2.c	/^void sha256d_ms(uint32_t *hash, uint32_t *W,$/;"	p	file:	signature:(uint32_t *hash, uint32_t *W, const uint32_t *midstate, const uint32_t *prehash)
+sha256d_ms_4way	sha2.c	/^void sha256d_ms_4way(uint32_t *hash, uint32_t *data,$/;"	p	file:	signature:(uint32_t *hash, uint32_t *data, const uint32_t *midstate, const uint32_t *prehash)
+sha256d_ms_8way	sha2.c	/^void sha256d_ms_8way(uint32_t *hash, uint32_t *data,$/;"	p	file:	signature:(uint32_t *hash, uint32_t *data, const uint32_t *midstate, const uint32_t *prehash)
+sha256d_preextend	main.c	/^extern void sha256d_preextend(uint32_t *W);$/;"	p	file:	signature:(uint32_t *W)
+sha256d_preextend	sha2.c	/^void sha256d_preextend(uint32_t *W)$/;"	f	signature:(uint32_t *W)
+sha256d_prehash	main.c	/^extern void sha256d_prehash(uint32_t *S, const uint32_t *W);$/;"	p	file:	signature:(uint32_t *S, const uint32_t *W)
+sha256d_prehash	sha2.c	/^void sha256d_prehash(uint32_t *S, const uint32_t *W)$/;"	f	signature:(uint32_t *S, const uint32_t *W)
+swab32	sha2.c	/^static inline uint32_t swab32(uint32_t v)$/;"	f	file:	signature:(uint32_t v)
+t0	sha2.c	/^	uint32_t t0, t1;$/;"	l
+t1	sha2.c	/^	uint32_t t0, t1;$/;"	l
