@@ -1,0 +1,6 @@
+classes=3
+train  = data/three/train.list
+valid  = data/three/test.list
+labels = data/three/labels.txt
+backup = backup/three-20180111
+top=2
